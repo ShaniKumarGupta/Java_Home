@@ -21,6 +21,7 @@ public class LinearSearchString {
             if(arr[i].equals(str)){
                 System.out.println("String "+str+" found at index "+i);
                 temp+= 1;
+                break;
             }
         }
         if(temp == 0){

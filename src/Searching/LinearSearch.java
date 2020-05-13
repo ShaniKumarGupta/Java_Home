@@ -20,6 +20,7 @@ public class LinearSearch {
             if(arr[i]==item){
                 System.out.println("Number "+item+" is present at index "+i);
                 temp+=1;
+                break;
             }
         }
         if(temp == 0){
