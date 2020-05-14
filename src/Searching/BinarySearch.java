@@ -1,5 +1,6 @@
 package Searching;/* shani gupta 13-05-2020 00:05 13*/
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BinarySearch {
@@ -39,6 +40,8 @@ public class BinarySearch {
         for(int i=0;i<arr.length;i++){
             arr[i] = sc.nextInt();
         }
+        Arrays.sort(arr);
+
 
         System.out.println("Enter the number to be search: ");
         int data = sc.nextInt();
